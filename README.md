@@ -3,7 +3,7 @@
 Ett professionellt väderdashboard för Trollhättan med realtidsväder, 5-dagarsprognos och säsongsanpassad design.
 
 ## 🌐 Live Demo
-[Demo på Vercel](https://vader-dashboard-pro.vercel.app)
+[Demo på Vercel](https://trollhettan.vercel.app/)
 
 ## ✨ Funktioner
 
@@ -19,4 +19,4 @@ Ett professionellt väderdashboard för Trollhättan med realtidsväder, 5-dagar
 
 1. Klona repot:
 ```bash
-git clone https://github.com/yourusername/vader-dashboard.git
+git clone https://github.com/rashkaduck/trollhettan.git
