@@ -1,28 +1,16 @@
+🌐 Kort teknisk beskrivning av sajten
+Frontend
+HTML, CSS och JavaScript: Hela sidan är en ren frontend‑applikation utan ramverk.
 
-## 🖼️ Väderbilder som behövs
+Client-side rendering: All logik körs direkt i webbläsaren.
 
-Ladda ner eller skapa följande bilder och placera i `assets/backgrounds/` mappen:
+Fetch‑anrop till OpenWeatherMap: Hämtar väder, prognos och luftkvalitet i realtid.
 
-1. **default.jpg** - Standard Trollhättan vy (1920x1080)
-2. **sunny.jpg** - Solig dag i Trollhättan
-3. **cloudy.jpg** - Mulen himmel över Trollhättan
-4. **rainy.jpg** - Regnväder i Trollhättan
-5. **snowy.jpg** - Vinter och snö i Trollhättan
-6. **windy.jpg** - Blåsigt väder med rörliga träd
-7. **foggy.jpg** - Dimmig morgon i Trollhättan
-8. **stormy.jpg** - Åska och storm
-9. **hail.jpg** - Hagelväder
-10. **icy.jpg** - Halka och is
+Responsiv design: Anpassad för mobil, desktop och stora skärmar.
 
-**Bildkrav:**
-- Format: JPEG
-- Storlek: Minst 1920x1080 pixlar
-- Kvalitet: Hög upplösning
-- Tema: Väderrelaterat och Trollhättan-specifikt om möjligt
+Dynamiska UI‑element: Bakgrund, ikoner och data uppdateras beroende på väder.
 
-## 🚀 Installation
+Backend
+Ingen egen backend: Sidan är statisk och körs helt i webbläsaren.
 
-1. **Klona eller ladda ner projektet**
-2. **Skapa mappstrukturen:**
-   ```bash
-   mkdir -p assets/backgrounds
+Externa API:er: OpenWeatherMap fungerar som backend‑datakälla.
